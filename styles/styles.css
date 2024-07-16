@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("header-footer.css");
+@import url("banner.css");
+@import url("caroussel.css");
+@import url("topics.css");
+@import url("contact.css");
+
+:root {
+    --proj-backg: #EBECEE;
+    --proj-white: #FFFFFF;
+    --proj-accent: #EB9B00;
+    --proj-dblue: #002F52;
+    --proj-gray: #474646;
+    --proj-lgray: #858585;
+    --proj-accentsel: #b88623;
+    --proj-bluegr: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--proj-backg);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+}
+
+.topics-link:hover, .buttons-more:hover {
+    background-color: var(--proj-accentsel);
+}
